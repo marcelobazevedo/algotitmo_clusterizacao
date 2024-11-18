@@ -1,0 +1,13 @@
+prefix=/Users/marcelodeazevedo/development/projeto_b/env
+exec_prefix=/Users/marcelodeazevedo/development/projeto_b/env
+libdir=/Users/marcelodeazevedo/development/projeto_b/env/lib
+sharedlibdir=/Users/marcelodeazevedo/development/projeto_b/env/lib
+includedir=/Users/marcelodeazevedo/development/projeto_b/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
